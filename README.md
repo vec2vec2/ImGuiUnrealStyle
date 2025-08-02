@@ -3,16 +3,16 @@ UnrealStyle for ImGui
 <img width="1810" height="1298" alt="image" src="https://github.com/user-attachments/assets/94504def-c976-41e8-a21e-d2f9841153b0" />
 
 ```c++
-  inline void SetupImGuiUnrealStyle()
+   inline void SetupImGuiUnrealStyle()
   {
     // UnrealStyle style by vec2
     // https://github.com/vec2vec2/ImGuiUnrealStyle
     ImGuiStyle& style = ImGui::GetStyle();
     style.Alpha = 1.0f;
     style.DisabledAlpha = 1.0f;
-    style.WindowPadding = ImVec2(12.0f, 12.0f);
+    style.WindowPadding = ImVec2(7, 7);
     style.WindowRounding = 11.5f;
-    style.WindowBorderSize = 3.0f;
+    style.WindowBorderSize = 3;
     style.WindowMinSize = ImVec2(20.0f, 20.0f);
     style.WindowTitleAlign = ImVec2(0.5f, 0.5f);
     style.WindowMenuButtonPosition = ImGuiDir_Right;
@@ -23,15 +23,15 @@ UnrealStyle for ImGui
     style.FramePadding = ImVec2(8, 5);
     style.FrameRounding = 3;
     style.FrameBorderSize = 1.0f;
-    style.ItemSpacing = ImVec2(5.1, 8.5f);
+    style.ItemSpacing = ImVec2(5.1, 4.0f);
     style.ItemInnerSpacing = ImVec2(4.0, 1.8);
-    style.CellPadding = ImVec2(12.1, 9.1);
+    style.CellPadding = ImVec2(4, 2);
     style.IndentSpacing = 20.0f;
     style.ColumnsMinSpacing = 4.9;
     style.ScrollbarSize = 13.6;
     style.ScrollbarRounding = 15.9;
     style.GrabMinSize = 3.7;
-    style.GrabRounding = 20.0f;
+    style.GrabRounding = 4.0f;
     style.TabRounding = 0.0f;
     style.TabBorderSize = 0.0f;
     style.ColorButtonPosition = ImGuiDir_Right;
